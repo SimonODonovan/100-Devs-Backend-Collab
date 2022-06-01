@@ -1,33 +1,21 @@
 # Magic 8Ball Project 100Devs-Collab
 Ever wanted your very own answer machine for any and every question you may have? The magic 8Ball solution has you covered!
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**[Check it out](https://magic-8-ball-100devs-collab.herokuapp.com/)** live at Heroku!
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](images/showcase.gif)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript, Nodejs
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+A collaboration project to create a backend API using Node.js as a platform. The client files, including html,css & javascript, are served to the user directly from the backend upon request to a default route. The user can then use a custom html form to input whatever question they desperately need answered. A linked asynchronous javascript function performs a http request to the 8Ball server which generates a response. A valid reponse is sent if the 8Ball server detects a question, otherwise the user is informed that a question must be asked of the 8Ball in order to get an answer.
 
 ## Optimizations
 *(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+Some additional information for the user if an invalid input is used would greatly enhance usability of the web application. Furthermore some additional visual styling such as a visual 8Ball image that shakes would have been preferrable to an input and button for querying and displaying responses.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
-
-
-
+This was a fantastic opportunity for various team members of varying skill levels to get together an collaborate in real-time using replit as a live editor. It offered an abundance of new challenges for each of us while we participated in tasks ranging from running ideation sessions for project, scoping of the problem-domain and delegating tasks to each team member.
